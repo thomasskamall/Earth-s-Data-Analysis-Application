@@ -1,0 +1,3740 @@
+{
+ "source": "https://power.larc.nasa.gov/api/website/metadata/parameters?advanced=false",
+ "dictionary_total": 368,
+ "skipped": {
+  "hour-based set (NASA monthly fails)": 52,
+  "needs extra settings": 1,
+  "hourly or climatology only": 69,
+  "no usable data from NASA": 21
+ },
+ "failed_codes": [
+  "GWM_HEIGHT",
+  "IMERG_PRECTOT",
+  "LWLAND",
+  "PRECTOT",
+  "PRMC",
+  "RZMC",
+  "SFMC",
+  "SWLAND",
+  "ALLSKY_NKT",
+  "CLOUD_BT",
+  "CLOUD_BT_MAX",
+  "CLOUD_BT_MIN",
+  "CLOUD_TT",
+  "CLOUD_TT_MAX",
+  "CLOUD_TT_MIN",
+  "CLRSKY_NKT",
+  "GWM_HEIGHT_ANOMALY",
+  "IMERG_PRECLIQUID_PROB",
+  "IMERG_PRECTOT_COUNT",
+  "PRMC_PRCNTL",
+  "RZMC_PRCNTL"
+ ],
+ "parameters": [
+  {
+   "code": "T2M",
+   "name": "Temperature at 2 Meters",
+   "units": "C",
+   "definition": "The average air (dry bulb) temperature at 2 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Dry Bulb Temperature at 2 Meters",
+    "Near-Surface Air Temperature",
+    "Ambient Temperature",
+    "Outdoor Air Temperature",
+    "Screen-Level Temperature",
+    "Surface Temperature",
+    "Temperatures",
+    "Temperature/Thermal IR Flux"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DWN",
+   "name": "All Sky Surface Shortwave Downward Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions. An alternative term for the total solar irradiance is the \"Global Horizontal Irradiance\" or GHI.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Global Horizontal Irradiance (GHI)",
+    "Insolation",
+    "Incoming Solar Radiation",
+    "Global Solar Radiation",
+    "Total Horizontal Solar Radiation",
+    "Hemispherical Solar Irradiance",
+    "Total Surface Solar Radiation",
+    "Solar",
+    "Parameters for Tilted PV Panels",
+    "Radiation",
+    "Parameters for Solar Cooking",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "RH2M",
+   "name": "Relative Humidity at 2 Meters",
+   "units": "%",
+   "definition": "The ratio of vapor pressure to the saturation vapor pressure with respect to a plane surface of pure water, expressed in percent.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Near-Surface Relative Humidity",
+    "Ambient Relative Humidity",
+    "Screen-Level Relative Humidity",
+    "Outdoor Relative Humidity",
+    "Humidity",
+    "Humidity/Precipitation"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "WS2M",
+   "name": "Wind Speed at 2 Meters",
+   "units": "m/s",
+   "definition": "The average of wind speed at 2 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Near-Surface Wind Speed",
+    "Wind Speed at 2m",
+    "Wind/Pressure",
+    "Wind",
+    "Parameters for Solar Cooking"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "T2MDEW",
+   "name": "Dew/Frost Point at 2 Meters",
+   "units": "C",
+   "definition": "The dew/frost point temperature at 2 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Dewpoint Temperature",
+    "Dew Point Temperature at 2 Meters",
+    "Near-Surface Dewpoint",
+    "Temperatures",
+    "Temperature/Thermal IR Flux"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "T2M_MAX",
+   "name": "Temperature at 2 Meters Maximum",
+   "units": "C",
+   "definition": "The maximum hourly air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Maximum Dry Bulb Temperature at 2 Meters",
+    "Maximum Ambient Temperature",
+    "Daily Maximum Temperature",
+    "High Temperature",
+    "Peak Air Temperature",
+    "Temperatures",
+    "Temperature/Thermal IR Flux"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "T2M_MIN",
+   "name": "Temperature at 2 Meters Minimum",
+   "units": "C",
+   "definition": "The minimum hourly air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Minimum Dry Bulb Temperature at 2 Meters",
+    "Minimum Ambient Temperature",
+    "Daily Minimum Temperature",
+    "Low Temperature",
+    "Temperatures",
+    "Temperature/Thermal IR Flux"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "PS",
+   "name": "Surface Pressure",
+   "units": "kPa",
+   "definition": "The atmospheric pressure at the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Station Pressure",
+    "Atmospheric Pressure at Surface",
+    "Barometric Pressure",
+    "Surface Barometric Pressure",
+    "Wind/Pressure",
+    "Atmospheric"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "T2MWET",
+   "name": "Wet Bulb Temperature at 2 Meters",
+   "units": "C",
+   "definition": "The adiabatic saturation temperature which can be measured by a thermometer covered in a water-soaked cloth over which air is passed at 2 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Wet Bulb Temperature",
+    "Adiabatic Saturation Temperature",
+    "Temperatures",
+    "Temperature/Thermal IR Flux"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "WS50M",
+   "name": "Wind Speed at 50 Meters",
+   "units": "m/s",
+   "definition": "The average of wind speed at 50 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Hub-Height Wind Speed",
+    "50-Meter Wind Speed",
+    "Wind Turbine Level Wind Speed",
+    "Wind/Pressure"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "ALLSKY_SFC_LW_DWN",
+   "name": "All Sky Surface Longwave Downward Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The downward thermal infrared irradiance under all sky conditions reaching a horizontal plane at the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from the Sky.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Downwelling Longwave Radiation (DLR)",
+    "Thermal Infrared Downwelling",
+    "Downward Terrestrial Radiation",
+    "Temperature/Thermal IR Flux",
+    "Radiation",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "WD50M",
+   "name": "Wind Direction at 50 Meters",
+   "units": "Degrees",
+   "definition": "The average of the wind direction at 50 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Hub-Height Wind Direction",
+    "50-Meter Wind Direction",
+    "Upper-Level Wind Direction",
+    "Wind/Pressure"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "WD2M",
+   "name": "Wind Direction at 2 Meters",
+   "units": "Degrees",
+   "definition": "The average of the wind direction at 2 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Wind Direction at 2m",
+    "Near-Surface Wind Direction",
+    "Low-Level Wind Bearing",
+    "Wind/Pressure",
+    "Wind"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "ALLSKY_SRF_ALB",
+   "name": "All Sky Surface Albedo",
+   "units": "dimensionless",
+   "definition": "The all sky rate of reflectivity of the earth's surface; the ratio of the solar energy reflected by the surface of the earth compared to the total solar energy incident reaching the surface of the earth.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Surface Reflectance",
+    "Broadband Albedo",
+    "Shortwave Albedo",
+    "Parameters for Tilted PV Panels",
+    "Radiation",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DIFF",
+   "name": "All Sky Surface Shortwave Diffuse Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Diffuse Horizontal Irradiance (DHI)",
+    "Diffuse Sky Radiation",
+    "Diffuse Solar Radiation",
+    "Scattered Solar Radiation",
+    "Solar",
+    "Parameters for Tilted PV Panels",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DNI",
+   "name": "All Sky Surface Shortwave Downward Direct Normal Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Direct Normal Irradiance (DNI)",
+    "Beam Radiation",
+    "Beam Normal Irradiance",
+    "Direct Beam Irradiance",
+    "Pyrheliometer Irradiance",
+    "Direct Solar Radiation",
+    "Solar",
+    "Parameters for Tilted PV Panels",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLOUD_AMT",
+   "name": "Cloud Amount",
+   "units": "%",
+   "definition": "The average percent of cloud amount during the temporal period.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Cloud Cover",
+    "Cloud Fraction",
+    "Total Cloud Cover",
+    "Sky Cover",
+    "Cloudiness",
+    "Solar Fluxes and Related",
+    "Diurnal Cloud Amounts"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "TOA_SW_DWN",
+   "name": "Top-Of-Atmosphere Shortwave Downward Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the top of the atmosphere (extraterrestrial radiation).",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Total Solar Irradiance (TSI)",
+    "Incoming Solar Insulation",
+    "Extraterrestrial Irradiance",
+    "Solar Constant (historical)",
+    "Top-of-Atmosphere Insolation",
+    "Extraterrestrial Horizontal Radiation",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "PW",
+   "name": "Precipitable Water",
+   "units": "cm",
+   "definition": "The total atmospheric water vapor contained in a vertical column of the atmosphere, sourced from CERES.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Total Column Water Vapor",
+    "Integrated Water Vapor",
+    "Columnar Water Vapor",
+    "Precipitation and Water",
+    "Humidity/Precipitation"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "PRECTOTCORR",
+   "name": "Precipitation Corrected",
+   "units": "mm/day",
+   "definition": "The average MERRA-2 bias corrected total precipitation at the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Bias-Corrected Precipitation",
+    "Adjusted Total Precipitation",
+    "Gauge-Corrected Precipitation",
+    "Corrected Rainfall"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "WS10M",
+   "name": "Wind Speed at 10 Meters",
+   "units": "m/s",
+   "definition": "The average of wind speed at 10 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Standard Anemometer Wind Speed",
+    "10-Meter Wind Speed",
+    "Surface Wind Speed",
+    "WMO Standard Wind Speed",
+    "Wind/Pressure",
+    "Wind"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "GWETPROF",
+   "name": "Profile Soil Wetness",
+   "units": "1",
+   "definition": "The amount of water and water vapor present in the soil. Profile indicates the layer from the surface down to the bedrock. Values range from 0 for completely dry conditions to 1 for completely saturated soil.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Full Column Soil Wetness",
+    "Soil Column Saturation Fraction",
+    "Soil Profile Wetness Index",
+    "Total Column Soil Moisture Fraction",
+    "Soil Properties",
+    "Soil Moisture/Wetness"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TS",
+   "name": "Earth Skin Temperature",
+   "units": "C",
+   "definition": "The average temperature at the earth's surface.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Land Surface Temperature",
+    "Skin Temperature",
+    "Radiometric Surface Temperature",
+    "Surface Radiative Temperature",
+    "Temperatures",
+    "Temperature/Thermal IR Flux"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "WD10M",
+   "name": "Wind Direction at 10 Meters",
+   "units": "Degrees",
+   "definition": "The average of the wind direction at 10 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Surface Wind Direction",
+    "Standard Anemometer Wind Direction",
+    "10-Meter Wind Direction",
+    "Wind Bearing at 10m",
+    "Wind/Pressure",
+    "Wind"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "ALLSKY_SFC_PAR_TOT",
+   "name": "All Sky Surface Total PAR",
+   "units": "MJ/m^2/day",
+   "definition": "The total (direct plus diffuse) Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Photosynthetically Active Radiation (PAR)",
+    "Global PAR",
+    "Total Visible Radiation (400-700 nm)",
+    "Photosynthetic Irradiance",
+    "Solar",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "QV2M",
+   "name": "Specific Humidity at 2 Meters",
+   "units": "g/kg",
+   "definition": "The ratio of the mass of water vapor to the total mass of air at 2 meters.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Specific Humidity at 2m",
+    "Near-Surface Specific Humidity",
+    "Mixing Ratio at 2 Meters",
+    "Water Vapor Mass Fraction at 2m",
+    "Humidity",
+    "Humidity/Precipitation"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "T2M_RANGE",
+   "name": "Temperature at 2 Meters Range",
+   "units": "C",
+   "definition": "The difference between the minimum and maximum hourly air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Dry Bulb Temperature Range at 2 Meters",
+    "Diurnal Temperature Range",
+    "Temperature Amplitude",
+    "Temperatures",
+    "Temperature/Thermal IR Flux"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "ALLSKY_KT",
+   "name": "All Sky Insolation Clearness Index",
+   "units": "dimensionless",
+   "definition": "A fraction representing clearness of the atmosphere; the all sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Clearness Index (Kt)",
+    "Parameters for Tilted PV Panels",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DWN",
+   "name": "Clear Sky Surface Shortwave Downward Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under clear sky conditions. An alternative term for the total solar irradiance is the \"Global Horizontal Irradiance\" or GHI.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Global Horizontal Irradiance (GHI)",
+    "Insolation",
+    "Incoming Solar Radiation",
+    "Clear Sky Global Solar Radiation",
+    "Potential Solar Radiation",
+    "Clear Sky Total Horizontal Solar Radiation",
+    "Solar",
+    "Parameters for Tilted PV Panels",
+    "Parameters for Solar Cooking",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "GWETROOT",
+   "name": "Root Zone Soil Wetness",
+   "units": "1",
+   "definition": "The amount of water and water vapor available to plants in the root zone, generally considered to be the upper 1 m of soil, expressed as the proportion of water present in a given amount of soil. Values range from 0 for completely dry conditions to 1 for completely saturated soil.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Root Zone Soil Saturation Fraction",
+    "Root Zone Wetness Index",
+    "Plant-Available Water Fraction",
+    "Root Layer Soil Wetness",
+    "Soil Properties",
+    "Soil Moisture/Wetness"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "GWETTOP",
+   "name": "Surface Soil Wetness",
+   "units": "1",
+   "definition": "The amount of water and water vapor present in the soil. Top indicates the upper 5 cm of soil. Values range from 0 for completely dry conditions to 1 for completely saturated soil.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Top Layer Soil Wetness",
+    "Surface Soil Saturation Fraction",
+    "Near-Surface Soil Wetness Index",
+    "Topsoil Moisture Fraction",
+    "Soil Properties",
+    "Soil Moisture/Wetness"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "WS10M_MAX",
+   "name": "Wind Speed at 10 Meters Maximum",
+   "units": "m/s",
+   "definition": "The maximum hourly wind speed at 10 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Maximum Wind Speed at 10 Meters",
+    "Peak Wind at 10m",
+    "Daily Maximum Surface Wind Speed",
+    "Wind/Pressure",
+    "Wind"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "WS10M_MIN",
+   "name": "Wind Speed at 10 Meters Minimum",
+   "units": "m/s",
+   "definition": "The minimum hourly wind speed at 10 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Minimum Wind Speed at 10 Meters",
+    "Daily Minimum Surface Wind Speed",
+    "Calm Wind at 10m",
+    "Wind/Pressure",
+    "Wind"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "WS10M_RANGE",
+   "name": "Wind Speed at 10 Meters Range",
+   "units": "m/s",
+   "definition": "The minimum and maximum hourly wind speed range at 10 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Wind Speed Range at 10 Meters",
+    "Diurnal Wind Speed Range at 10m",
+    "Wind/Pressure"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "WS50M_MAX",
+   "name": "Wind Speed at 50 Meters Maximum",
+   "units": "m/s",
+   "definition": "The maximum hourly wind speed at 50 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Maximum Wind Speed at 50 Meters",
+    "Peak Hub-Height Wind Speed",
+    "Daily Maximum Wind at 50m",
+    "Wind/Pressure"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "WS50M_MIN",
+   "name": "Wind Speed at 50 Meters Minimum",
+   "units": "m/s",
+   "definition": "The minimum hourly wind speed at 50 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Minimum Wind Speed at 50 Meters",
+    "Daily Minimum Hub-Height Wind",
+    "Calm Wind at 50m",
+    "Wind/Pressure"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "WS50M_RANGE",
+   "name": "Wind Speed at 50 Meters Range",
+   "units": "m/s",
+   "definition": "The minimum and maximum hourly wind speed range at 50 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Wind Speed Range at 50 Meters",
+    "Hub-Height Wind Speed Range",
+    "Wind/Pressure"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DIFF_MAX",
+   "name": "All Sky Surface Shortwave Diffuse Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar",
+    "Parameters for Tilted PV Panels",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DIFF_MIN",
+   "name": "All Sky Surface Shortwave Diffuse Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar",
+    "Parameters for Tilted PV Panels",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DNI_MAX",
+   "name": "All Sky Surface Shortwave Downward Direct Normal Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar",
+    "Parameters for Tilted PV Panels",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DNI_MIN",
+   "name": "All Sky Surface Shortwave Downward Direct Normal Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar",
+    "Parameters for Tilted PV Panels"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_SW_UP",
+   "name": "All Sky Surface Shortwave Upward Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The upward shortwave irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Reflected Solar Radiation",
+    "Upwelling Shortwave Radiation",
+    "Surface Reflected Shortwave",
+    "Reflected Shortwave Irradiance",
+    "Solar",
+    "Radiation"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_UV_INDEX",
+   "name": "All Sky Surface UV Index",
+   "units": "W m-2 x 40",
+   "definition": "The ultraviolet radiation exposure index.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "UV Index (UVI)",
+    "Global Solar UV Index",
+    "Solar",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_UVA",
+   "name": "All Sky Surface UVA Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The ultraviolet A (UVA 315nm-400nm) irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Ultraviolet-A Irradiance (315-400 nm)",
+    "UV-A Radiation",
+    "Near-Ultraviolet Irradiance",
+    "Long-Wave UV Radiation",
+    "Solar",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_UVB",
+   "name": "All Sky Surface UVB Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The ultraviolet B (UVB 280nm-315nm) irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Ultraviolet-B Irradiance (280-315 nm)",
+    "UV-B Radiation",
+    "Middle-Ultraviolet Irradiance",
+    "Solar",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_KT",
+   "name": "Clear Sky Insolation Clearness Index",
+   "units": "dimensionless",
+   "definition": "A fraction representing clearness of the atmosphere; the clear sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Clear Sky Clearness Index",
+    "Clear Sky Atmospheric Transmittance",
+    "Parameters for Tilted PV Panels",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_PAR_TOT",
+   "name": "Clear Sky Surface Total PAR",
+   "units": "MJ/m^2/day",
+   "definition": "The total Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Clear Sky Total PAR",
+    "Clear Sky Photosynthetically Active Radiation",
+    "Clear Sky Global PAR",
+    "Solar",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CDD0",
+   "name": "Cooling Degree Days Above 0 C",
+   "units": "degree-day-c",
+   "definition": "The daily accumulation of degrees above a 0-degree-Celsius threshold when the daily mean temperature is above the threshold.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "CDD Base 0 C",
+    "Cooling Degree Days Base 0",
+    "Cooling Demand Index 0 C",
+    "DOE/ASHRAE Climate Building"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "CDD18_3",
+   "name": "Cooling Degree Days Above 18.3 C",
+   "units": "degree-day-c",
+   "definition": "The daily accumulation of degrees above an 18.3-degree-Celsius threshold when the daily mean temperature is above the threshold.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "CDD Base 18.3 C",
+    "Cooling Degree Days Base 65 F",
+    "ASHRAE Cooling Degree Days",
+    "Standard Cooling Degree Days",
+    "DOE/ASHRAE Climate Building"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TS_MAX",
+   "name": "Earth Skin Temperature Maximum",
+   "units": "C",
+   "definition": "The maximum hourly earth skin temperature in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Maximum Skin Temperature",
+    "Peak Surface Temperature",
+    "Daily Maximum Land Surface Temperature",
+    "Temperatures",
+    "Temperature/Thermal IR Flux"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TS_MIN",
+   "name": "Earth Skin Temperature Minimum",
+   "units": "C",
+   "definition": "The minimum hourly earth skin temperature in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Minimum Skin Temperature",
+    "Daily Minimum Land Surface Temperature",
+    "Temperatures",
+    "Temperature/Thermal IR Flux"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "U2M",
+   "name": "Eastward Wind at 2 Meters",
+   "units": "m/s",
+   "definition": "The estimate of the eastward wind average speed for winds blowing 2 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Zonal Wind at 2 Meters",
+    "U-Component of Wind at 2m",
+    "East-West Wind Component at 2m",
+    "Wind"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "EVLAND",
+   "name": "Evaporation Land",
+   "units": "mm/day",
+   "definition": "The evaporation over land at the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Land Surface Evaporation",
+    "Terrestrial Evaporation",
+    "Land Evaporative Flux",
+    "Surface Water Evaporation over Land",
+    "Precipitation and Water"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "EVPTRNS",
+   "name": "Evapotranspiration Energy Flux",
+   "units": "MJ/m^2/day",
+   "definition": "The evapotranspiration energy flux at the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Evapotranspiration Flux",
+    "Latent Heat Flux from ET",
+    "ET Energy Flux",
+    "Surface Evapotranspiration Energy",
+    "Precipitation and Water"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "FROST_DAYS",
+   "name": "Frost Days",
+   "units": "Days",
+   "definition": "A frost day occurs when the 2m temperature cools to the dew point temperature and both are less than 0 C or 32 F.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Number of Frost Days",
+    "Days Below Freezing",
+    "Frost Frequency",
+    "Freeze Days",
+    "Temperatures",
+    "Temperature/Thermal IR Flux"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "HDD0",
+   "name": "Heating Degree Days Below 0 C",
+   "units": "degree-day-c",
+   "definition": "The daily accumulation of degrees below a 0-degree-Celsius threshold when the daily mean temperature is below the threshold.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "HDD Base 0 C",
+    "Heating Degree Days Base 0",
+    "DOE/ASHRAE Climate Building"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "HDD18_3",
+   "name": "Heating Degree Days Below 18.3 C",
+   "units": "degree-day-c",
+   "definition": "The daily accumulation of degrees below an 18.3-degree-Celsius threshold when the daily mean temperature is below the threshold.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "HDD Base 18.3 C",
+    "Heating Degree Days Base 65 F",
+    "HDD65",
+    "ASHRAE Heating Degree Days",
+    "Standard Heating Degree Days",
+    "DOE/ASHRAE Climate Building"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "MIDDAY_INSOL",
+   "name": "Midday Insolation Incident",
+   "units": "MJ/m^2/day",
+   "definition": "The total amount of solar irradiance (direct plus diffuse) incident on a horizontal plane at the earth's surface during the solar noon hour midday period.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar Noon Irradiance",
+    "Peak Solar Irradiance",
+    "Noontime Insolation",
+    "Maximum Daily Irradiance",
+    "Parameters for Solar Cooking",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "V2M",
+   "name": "Northward Wind at 2 Meters",
+   "units": "m/s",
+   "definition": "The estimate of the northward wind average speed for winds blowing 2 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Meridional Wind at 2 Meters",
+    "V-Component of Wind at 2m",
+    "North-South Wind Component at 2m",
+    "Wind"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "SNODP",
+   "name": "Snow Depth",
+   "units": "cm",
+   "definition": "The snow depth on land at surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Snow Depth on Ground",
+    "Snow Pack Depth",
+    "Snow Cover Depth",
+    "Snowpack Thickness"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TSOIL1",
+   "name": "Soil Temperatures Layer 1",
+   "units": "C",
+   "definition": "The estimate of soil temperatures at layer 1; 0.018 to 0.0988 m depth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Shallow Soil Temperature",
+    "Soil Temperature Layer 1",
+    "Near-Surface Soil Temperature",
+    "Topsoil Temperature",
+    "Soil Temperature"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TSOIL2",
+   "name": "Soil Temperatures Layer 2",
+   "units": "C",
+   "definition": "The estimate of soil temperatures at layer 2; 0.0988 to 0.294 m depth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Soil Temperature Layer 2",
+    "Root-Zone Soil Temperature",
+    "Subsurface Soil Temperature",
+    "Soil Temperature"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TSOIL3",
+   "name": "Soil Temperatures Layer 3",
+   "units": "C",
+   "definition": "The estimate of soil temperatures at layer 3; 0.294 to 0.6799 m depth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Soil Temperature Layer 3",
+    "Mid-Root-Zone Soil Temperature",
+    "Intermediate Soil Temperature",
+    "Soil Temperature"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TSOIL4",
+   "name": "Soil Temperatures Layer 4",
+   "units": "C",
+   "definition": "The estimate of soil temperatures at layer 4; 0.6799 to 1.4425 m depth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Soil Temperature Layer 4",
+    "Deep Root-Zone Soil Temperature",
+    "Soil Temperature"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TSOIL5",
+   "name": "Soil Temperatures Layer 5",
+   "units": "C",
+   "definition": "The estimate of soil temperatures at layer 5; 1.4425 to 2.949 m depth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Soil Temperature Layer 5",
+    "Deep Soil Temperature",
+    "Soil Temperature"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TSOIL6",
+   "name": "Soil Temperatures Layer 6",
+   "units": "C",
+   "definition": "The estimate of soil temperatures at layer 6; 2.949 to 10.0 m depth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Soil Temperature Layer 6",
+    "Deep Subsurface Temperature",
+    "Bottom-Layer Soil Temperature",
+    "Soil Temperature"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "SZA",
+   "name": "Solar Zenith Angle",
+   "units": "Degrees",
+   "definition": "The angle between the geodetic zenith vector and a vector from the earth point to the sun integrated over the period.",
+   "type": "Solar geometry",
+   "availability": "daily",
+   "keywords": [
+    "Zenith Angle",
+    "Solar Zenith Distance",
+    "Sun Angle from Zenith",
+    "Solar Fluxes and Related"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "TSURF",
+   "name": "Surface Temperature of Land and Snow",
+   "units": "C",
+   "definition": " The estimate of surface temperature of land and snow; 0 to 0.018 m depth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Ground Surface Temperature",
+    "Land Surface Temperature",
+    "Ground Temperature",
+    "Soil Temperature"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TOA_SW_DNI",
+   "name": "Top-Of-Atmosphere Shortwave Direct Normal Radiation",
+   "units": "MJ/m^2/day",
+   "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane where oriented to the sun's position at the top of the atmosphere (extraterrestrial radiation).",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Extraterrestrial Direct Normal Irradiance",
+    "Extraterrestrial Beam Irradiance",
+    "TOA Beam Radiation"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "WS2M_MAX",
+   "name": "Wind Speed at 2 Meters Maximum",
+   "units": "m/s",
+   "definition": "The maximum hourly wind speed at 2 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Maximum Wind Speed at 2 Meters",
+    "Peak Wind Speed at 2m",
+    "Daily Maximum Wind at 2m",
+    "Wind/Pressure",
+    "Wind"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "WS2M_MIN",
+   "name": "Wind Speed at 2 Meters Minimum",
+   "units": "m/s",
+   "definition": "The minimum hourly wind speed at 2 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Minimum Wind Speed at 2 Meters",
+    "Daily Minimum Wind at 2m",
+    "Wind/Pressure",
+    "Wind"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "WS2M_RANGE",
+   "name": "Wind Speed at 2 Meters Range",
+   "units": "m/s",
+   "definition": "The minimum and maximum hourly wind speed range at 2 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Wind Speed Range at 2 Meters",
+    "Diurnal Wind Speed Range at 2m",
+    "Wind/Pressure",
+    "Wind"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "AOD_55",
+   "name": "Aerosol Optical Depth 55",
+   "units": "dimensionless",
+   "definition": "The optical thickness at 0.55 um measured vertically; the component of the atmosphere to quantify the removal of radiant energy from an incident beam.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "PSC",
+   "name": "Corrected Atmospheric Pressure (Adjusted For Site Elevation)",
+   "units": "kPa",
+   "definition": "Atmospheric pressure associated with the MERRA-2 grid has been adjusted using the hypsometric equation to account for the difference between the elevation of an underlying surface site and the average elevation of the MERRA-2 grid cell.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Bias-Corrected Surface Pressure",
+    "Adjusted Surface Pressure",
+    "Corrected Barometric Pressure"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": null
+  },
+  {
+   "code": "GDD13_3",
+   "name": "Growing Degree Days Above 13.3 C",
+   "units": "degree-day-c",
+   "definition": "Accumulated crop heat units above a 13.3-degree-Celsius base temperature using the complex growing degree day method; commonly used for peanut.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "GDD Base 13.3 C",
+    "Growing Degree Days Base 56 F",
+    "Crop Heat Units Base 56 F"
+   ],
+   "official": false,
+   "nrt": false,
+   "reviewing": true,
+   "since": null
+  },
+  {
+   "code": "GDD15_6",
+   "name": "Growing Degree Days Above 15.6 C",
+   "units": "degree-day-c",
+   "definition": "Accumulated crop heat units above a 15.6-degree-Celsius base temperature using the complex growing degree day method; commonly used for cotton.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "GDD Base 15.6 C",
+    "Growing Degree Days Base 60 F",
+    "Crop Heat Units Base 60 F"
+   ],
+   "official": false,
+   "nrt": false,
+   "reviewing": true,
+   "since": null
+  },
+  {
+   "code": "GDD4_4",
+   "name": "Growing Degree Days Above 4.4 C",
+   "units": "degree-day-c",
+   "definition": "Accumulated crop heat units above a 4.4-degree-Celsius base temperature using the complex growing degree day method; commonly used for wheat/barley/rye/oats.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "GDD Base 4.4 C",
+    "Growing Degree Days Base 40 F",
+    "Crop Heat Units Base 40 F"
+   ],
+   "official": false,
+   "nrt": false,
+   "reviewing": true,
+   "since": null
+  },
+  {
+   "code": "GDD7_2",
+   "name": "Growing Degree Days Above 7.2 C",
+   "units": "degree-day-c",
+   "definition": "Accumulated crop heat units above a 7.2-degree-Celsius base temperature using the complex growing degree day method; commonly used for potato/sunflower.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "GDD Base 7.2 C",
+    "Growing Degree Days Base 45 F",
+    "Crop Heat Units Base 45 F"
+   ],
+   "official": false,
+   "nrt": false,
+   "reviewing": true,
+   "since": null
+  },
+  {
+   "code": "U10M",
+   "name": "Eastward Wind at 10 Meters",
+   "units": "m/s",
+   "definition": "The estimate of the eastward wind average speed for winds blowing 10 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Zonal Wind at 10 Meters",
+    "U-Component of Wind at 10m",
+    "East-West Wind Component at 10m"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "V10M",
+   "name": "Northward Wind at 10 Meters",
+   "units": "m/s",
+   "definition": "The estimate of the northward wind average speed for winds blowing 10 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Meridional Wind at 10 Meters",
+    "V-Component of Wind at 10m",
+    "North-South Wind Component at 10m"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "AOD_55_ADJ",
+   "name": "Adjusted Aerosol Optical Depth 55",
+   "units": "dimensionless",
+   "definition": "The adjusted optical thickness at 0.55 um measured vertically; the component of the atmosphere to quantify the removal of radiant energy from an incident beam.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Aerosol Optical Depth (AOD) at 550 nm",
+    "Aerosol Optical Thickness (AOT)"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "AOD_84",
+   "name": "Aerosol Optical Depth 84",
+   "units": "dimensionless",
+   "definition": "The optical thickness at 0.84 um measured vertically; the component of the atmosphere to quantify the removal of radiant energy from an incident beam.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "AIRMASS",
+   "name": "Air Mass",
+   "units": "dimensionless",
+   "definition": "Air Mass according to Perez et al. 1990.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Optical Air Mass",
+    "Relative Air Mass",
+    "Atmospheric Path Length"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_KT_MAX",
+   "name": "All Sky Insolation Clearness Index Maximum",
+   "units": "dimensionless",
+   "definition": "The maximum clearness of the atmosphere; the all sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_KT_MIN",
+   "name": "All Sky Insolation Clearness Index Minimum",
+   "units": "dimensionless",
+   "definition": "The minimum clearness of the atmosphere; the all sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_KT_SD",
+   "name": "All Sky Insolation Clearness Index Standard Deviation",
+   "units": "dimensionless",
+   "definition": "The standard deviation of the clearness atmosphere; the all sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_PAR_DIFF",
+   "name": "All Sky Surface Diffuse PAR",
+   "units": "MJ/m^2/day",
+   "definition": "The diffuse (scattered from original direct path by molecules or particles) Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Diffuse Photosynthetically Active Radiation",
+    "Scattered PAR",
+    "Diffuse Visible Radiation (400-700 nm)",
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_PAR_DIFF_MAX",
+   "name": "All Sky Surface Diffuse PAR Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum diffuse (scattered from original direct path by molecules or particles) Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_PAR_DIFF_MIN",
+   "name": "All Sky Surface Diffuse PAR Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum diffuse (scattered from original direct path by molecules or particles) Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_PAR_DIFF_SD",
+   "name": "All Sky Surface Diffuse PAR Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of diffuse (scattered from original direct path by molecules or particles) Photosynthetically Active Radiation (PAR)solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_PAR_DIRH",
+   "name": "All Sky Surface Direct Horizontal PAR",
+   "units": "MJ/m^2/day",
+   "definition": "The Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Direct Beam PAR (Horizontal)",
+    "Direct Photosynthetically Active Radiation",
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_PAR_DIRH_MAX",
+   "name": "All Sky Surface Direct Horizontal PAR Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_PAR_DIRH_MIN",
+   "name": "All Sky Surface Direct Horizontal PAR Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_PAR_DIRH_SD",
+   "name": "All Sky Surface Direct Horizontal PAR Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ORIGINAL_ALLSKY_SFC_LW_DWN",
+   "name": "All Sky Surface Longwave Downward Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The downward thermal infrared irradiance under all sky conditions reaching a horizontal plane on the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+   "type": "Radiation",
+   "availability": "daily",
+   "keywords": [],
+   "official": false,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_LW_DWN_MAX",
+   "name": "All Sky Surface Longwave Downward Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum downward thermal infrared irradiance under all sky conditions reaching a horizontal plane at the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from the Sky.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_LW_DWN_MIN",
+   "name": "All Sky Surface Longwave Downward Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum downward thermal infrared irradiance under all sky conditions reaching a horizontal plane at the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from the Sky.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_LW_DWN_SD",
+   "name": "All Sky Surface Longwave Downward Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of downward thermal infrared irradiance under all sky conditions reaching a horizontal plane at the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from the Sky.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_LW_UP",
+   "name": "All Sky Surface Longwave Upward Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The upward thermal infrared irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Upwelling Longwave Radiation",
+    "Surface Emitted Thermal Radiation",
+    "Outgoing Surface Longwave Radiation",
+    "Terrestrial Surface Radiation"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_LW_UP_MAX",
+   "name": "All Sky Surface Longwave Upward Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum upward thermal infrared irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_LW_UP_MIN",
+   "name": "All Sky Surface Longwave Upward Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum upward thermal infrared irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_LW_UP_SD",
+   "name": "All Sky Surface Longwave Upward Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of upward thermal infrared irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ORIGINAL_ALLSKY_SFC_SW_DIFF",
+   "name": "All Sky Surface Shortwave Diffuse Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "daily",
+   "keywords": [],
+   "official": false,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DIFF_SD",
+   "name": "All Sky Surface Shortwave Diffuse Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DIRH",
+   "name": "All Sky Surface Shortwave Direct Horizontal Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Direct Horizontal Irradiance",
+    "Beam Horizontal Irradiance",
+    "Direct Beam Irradiance (Horizontal)",
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ORIGINAL_ALLSKY_SFC_SW_DIRH",
+   "name": "All Sky Surface Shortwave Direct Horizontal Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "daily",
+   "keywords": [],
+   "official": false,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DIRH_MAX",
+   "name": "All Sky Surface Shortwave Direct Horizontal Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DIRH_MIN",
+   "name": "All Sky Surface Shortwave Direct Horizontal Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DIRH_SD",
+   "name": "All Sky Surface Shortwave Direct Horizontal Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DNI_SD",
+   "name": "All Sky Surface Shortwave Downward Direct Normal Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ORIGINAL_ALLSKY_SFC_SW_DWN",
+   "name": "All Sky Surface Shortwave Downward Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions. An alternative term for the total solar irradiance is the \"Global Horizontal Irradiance\" or GHI.",
+   "type": "Radiation",
+   "availability": "daily",
+   "keywords": [],
+   "official": false,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DWN_MAX",
+   "name": "All Sky Surface Shortwave Downward Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Insolation",
+    "Incoming Solar Radiation",
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DWN_MIN",
+   "name": "All Sky Surface Shortwave Downward Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Insolation",
+    "Incoming Solar Radiation",
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_SW_DWN_SD",
+   "name": "All Sky Surface Shortwave Downward Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_SW_UP_MAX",
+   "name": "All Sky Surface Shortwave Upward Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum upward shortwave irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_SW_UP_MIN",
+   "name": "All Sky Surface Shortwave Upward Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum upward shortwave irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_SW_UP_SD",
+   "name": "All Sky Surface Shortwave Upward Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of upward shortwave irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_PAR_TOT_MAX",
+   "name": "All Sky Surface Total PAR Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum total (direct plus diffuse) Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_PAR_TOT_MIN",
+   "name": "All Sky Surface Total PAR Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum total (direct plus diffuse) Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_PAR_TOT_SD",
+   "name": "All Sky Surface Total PAR Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of total (direct plus diffuse) Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ALLSKY_SFC_UV_INDEX_MAX",
+   "name": "All Sky Surface UV Index Maximum",
+   "units": "W m-2 x 40",
+   "definition": "The maximum ultraviolet radiation exposure index.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_UV_INDEX_MIN",
+   "name": "All Sky Surface UV Index Minimum",
+   "units": "W m-2 x 40",
+   "definition": "The minimum ultraviolet radiation exposure index.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_UV_INDEX_SD",
+   "name": "All Sky Surface UV Index Standard Deviation",
+   "units": "W m-2 x 40",
+   "definition": "The standard deviation of ultraviolet radiation exposure index.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_UVA_MAX",
+   "name": "All Sky Surface UVA Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum ultraviolet A (UVA 315nm-400nm) irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_UVA_MIN",
+   "name": "All Sky Surface UVA Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum ultraviolet A (UVA 315nm-400nm) irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_UVA_SD",
+   "name": "All Sky Surface UVA Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of ultraviolet A (UVA 315nm-400nm) irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_UVB_MAX",
+   "name": "All Sky Surface UVB Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum ultraviolet B (UVB 280nm-315nm) irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_UVB_MIN",
+   "name": "All Sky Surface UVB Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum ultraviolet B (UVB 280nm-315nm) irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ALLSKY_SFC_UVB_SD",
+   "name": "All Sky Surface UVB Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of ultraviolet B (UVB 280nm-315nm) irradiance under all sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_DAYS",
+   "name": "Clear Sky Days",
+   "units": "Days",
+   "definition": "The number of Clear Sky Days if the daytime cloud amount is less than 10 percent.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Cloud-Free Days",
+    "Sunny Days",
+    "Cloudless Days",
+    "Clear Days"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_KT_MAX",
+   "name": "Clear Sky Insolation Clearness Index Maximum",
+   "units": "dimensionless",
+   "definition": "The maximum clearness of the atmosphere; the clear sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_KT_MIN",
+   "name": "Clear Sky Insolation Clearness Index Minimum",
+   "units": "dimensionless",
+   "definition": "The minimum clearness of the atmosphere; the clear sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_KT_SD",
+   "name": "Clear Sky Insolation Clearness Index Standard Deviation",
+   "units": "dimensionless",
+   "definition": "The standard deviation of the clearness atmosphere; the clear sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SRF_ALB",
+   "name": "Clear Sky Surface Albedo",
+   "units": "dimensionless",
+   "definition": "The clear sky rate of reflectivity of the earth's surface; the ratio of the solar energy reflected by the surface of the earth compared to the total solar energy incident reaching the surface of the earth.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Clear Sky Surface Reflectance",
+    "Clear Sky Broadband Albedo",
+    "Clear Sky Solar Reflectivity"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_PAR_DIFF",
+   "name": "Clear Sky Surface Diffuse PAR",
+   "units": "MJ/m^2/day",
+   "definition": "The diffuse (scattered from original direct path by molecules or particles) Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Clear Sky Diffuse PAR",
+    "Clear Sky Scattered Photosynthetically Active Radiation",
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_PAR_DIFF_MAX",
+   "name": "Clear Sky Surface Diffuse PAR Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum diffuse (scattered from original direct path by molecules or particles) Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_PAR_DIFF_MIN",
+   "name": "Clear Sky Surface Diffuse PAR Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum diffuse (scattered from original direct path by molecules or particles) Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_PAR_DIFF_SD",
+   "name": "Clear Sky Surface Diffuse PAR Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of diffuse (scattered from original direct path by molecules or particles) Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_PAR_DIRH",
+   "name": "Clear Sky Surface Direct Horizontal PAR",
+   "units": "MJ/m^2/day",
+   "definition": "The Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Clear Sky Direct Beam PAR (Horizontal)",
+    "Clear Sky Direct Photosynthetically Active Radiation",
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_PAR_DIRH_MAX",
+   "name": "Clear Sky Surface Direct Horizontal PAR Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_PAR_DIRH_MIN",
+   "name": "Clear Sky Surface Direct Horizontal PAR Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_PAR_DIRH_SD",
+   "name": "Clear Sky Surface Direct Horizontal PAR Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_LW_DWN",
+   "name": "Clear Sky Surface Longwave Downward Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The downward thermal infrared irradiance under clear sky conditions reaching a horizontal plane on the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Clear Sky Downwelling Longwave Radiation",
+    "Clear Sky Atmospheric Back Radiation",
+    "Cloudless Sky Thermal Downwelling"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "ORIGINAL_CLRSKY_SFC_LW_DWN",
+   "name": "Clear Sky Surface Longwave Downward Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The downward thermal infrared irradiance under clear sky conditions reaching a horizontal plane on the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+   "type": "Radiation",
+   "availability": "daily",
+   "keywords": [],
+   "official": false,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "CLRSKY_SFC_LW_DWN_MAX",
+   "name": "Clear Sky Surface Longwave Downward Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum downward thermal infrared irradiance under clear sky conditions reaching a horizontal plane on the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_LW_DWN_MIN",
+   "name": "Clear Sky Surface Longwave Downward Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum downward thermal infrared irradiance under clear sky conditions reaching a horizontal plane on the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_LW_DWN_SD",
+   "name": "Clear Sky Surface Longwave Downward Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of downward thermal infrared irradiance under clear sky conditions reaching a horizontal plane on the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_LW_UP",
+   "name": "Clear Sky Surface Longwave Upward Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The upward thermal infrared irradiance under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Clear Sky Upwelling Longwave Radiation",
+    "Clear Sky Surface Emitted Thermal Radiation"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "CLRSKY_SFC_LW_UP_MAX",
+   "name": "Clear Sky Surface Longwave Upward Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum upward thermal infrared irradiance under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "CLRSKY_SFC_LW_UP_MIN",
+   "name": "Clear Sky Surface Longwave Upward Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum upward thermal infrared irradiance under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "CLRSKY_SFC_LW_UP_SD",
+   "name": "Clear Sky Surface Longwave Upward Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of upward thermal infrared irradiance under clear sky conditions",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DIRH",
+   "name": "Clear Sky Surface Shortwave Direct Horizontal Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Clear Sky Direct Horizontal Irradiance",
+    "Clear Sky Beam Horizontal Irradiance",
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DIRH_MAX",
+   "name": "Clear Sky Surface Shortwave Direct Horizontal Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DIRH_MIN",
+   "name": "Clear Sky Surface Shortwave Direct Horizontal Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DIRH_SD",
+   "name": "Clear Sky Surface Shortwave Direct Horizontal Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DIFF",
+   "name": "Clear Sky Surface Shortwave Downward Diffuse Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Diffuse Horizontal Irradiance (DHI)",
+    "Diffuse Sky Radiation",
+    "Clear Sky Diffuse Solar Radiation",
+    "Rayleigh Scattered Radiation",
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DIFF_MAX",
+   "name": "Clear Sky Surface Shortwave Downward Diffuse Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DIFF_MIN",
+   "name": "Clear Sky Surface Shortwave Downward Diffuse Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DIFF_SD",
+   "name": "Clear Sky Surface Shortwave Downward Diffuse Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DNI",
+   "name": "Clear Sky Surface Shortwave Downward Direct Normal Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Direct Normal Irradiance (DNI)",
+    "Beam Radiation",
+    "Clear Sky Beam Normal Irradiance",
+    "Clear Sky Direct Beam Irradiance",
+    "Clear Sky Direct Solar Radiation",
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DNI_SD",
+   "name": "Clear Sky Surface Shortwave Downward Direct Normal Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DNI_MAX",
+   "name": "Clear Sky Surface Shortwave Downward Direct Normal Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DNI_MIN",
+   "name": "Clear Sky Surface Shortwave Downward Direct Normal Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "ORIGINAL_CLRSKY_SFC_SW_DWN",
+   "name": "Clear Sky Surface Shortwave Downward Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under clear sky conditions. An alternative term for the total solar irradiance is the \"Global Horizontal Irradiance\" or GHI.",
+   "type": "Radiation",
+   "availability": "daily",
+   "keywords": [],
+   "official": false,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DWN_MAX",
+   "name": "Clear Sky Surface Shortwave Downward Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Insolation",
+    "Incoming Solar Radiation",
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DWN_MIN",
+   "name": "Clear Sky Surface Shortwave Downward Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Insolation",
+    "Incoming Solar Radiation",
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_DWN_SD",
+   "name": "Clear Sky Surface Shortwave Downward Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Insolation",
+    "Incoming Solar Radiation"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_SW_UP",
+   "name": "Clear Sky Surface Shortwave Upward Irradiance",
+   "units": "MJ/m^2/day",
+   "definition": "The upward shortwave irradiance under clearsky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Clear Sky Reflected Solar Radiation",
+    "Clear Sky Upwelling Shortwave Radiation",
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "CLRSKY_SFC_SW_UP_MAX",
+   "name": "Clear Sky Surface Shortwave Upward Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum upward shortwave irradiance under clearsky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "CLRSKY_SFC_SW_UP_MIN",
+   "name": "Clear Sky Surface Shortwave Upward Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum upward shortwave irradiance under clearsky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "CLRSKY_SFC_SW_UP_SD",
+   "name": "Clear Sky Surface Shortwave Upward Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of upward shortwave irradiance under clearsky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "CLRSKY_SFC_PAR_TOT_MAX",
+   "name": "Clear Sky Surface Total PAR Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum total (direct plus diffuse) Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_PAR_TOT_MIN",
+   "name": "Clear Sky Surface Total PAR Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum total (direct plus diffuse) Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Solar"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLRSKY_SFC_PAR_TOT_SD",
+   "name": "Clear Sky Surface Total PAR Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of total (direct plus diffuse) Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLOUD_AMT_DAY",
+   "name": "Cloud Amount at Daytime",
+   "units": "%",
+   "definition": "The average percent of cloud amount during daylight.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Daytime Cloud Cover",
+    "Daytime Cloud Fraction",
+    "Daytime Sky Cover"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLOUD_AMT_NIGHT",
+   "name": "Cloud Amount at Nighttime",
+   "units": "%",
+   "definition": "The average percent of cloud amount during nighttime.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Nighttime Cloud Cover",
+    "Nighttime Cloud Fraction",
+    "Nighttime Sky Cover"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "CLOUD_OD",
+   "name": "Cloud Optical Visible Depth",
+   "units": "dimensionless",
+   "definition": "The vertical optical thickness between the top and bottom of a cloud.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Cloud Optical Depth (COD)",
+    "Cloud Optical Thickness (COT)",
+    "Cloud Opacity"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "TS_ADJ",
+   "name": "Earth Skin Temperature Adjusted",
+   "units": "C",
+   "definition": "The adjusted average temperature at the earth's surface. Adjusted refers to CERES source parameter.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Adjusted Surface Temperature",
+    "Corrected Skin Temperature",
+    "Bias-Adjusted Land Surface Temperature"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "TS_MAX_AVG",
+   "name": "Earth Skin Temperature Maximum Average",
+   "units": "C",
+   "definition": "The average of the daily maximum earth skin temperature in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Mean Maximum Skin Temperature",
+    "Average Peak Surface Temperature"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TS_MIN_AVG",
+   "name": "Earth Skin Temperature Minimum Average",
+   "units": "C",
+   "definition": "The average of the daily minimum earth skin temperature in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Mean Minimum Skin Temperature",
+    "Average Low Surface Temperature"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TS_RANGE",
+   "name": "Earth Skin Temperature Range",
+   "units": "C",
+   "definition": "The minimum and maximum hourly earth skin temperature range in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Surface Temperature Diurnal Range",
+    "Skin Temperature Range"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "U50M",
+   "name": "Eastward Wind at 50 Meters",
+   "units": "m/s",
+   "definition": "The estimate of the eastward wind average speed for winds blowing 50 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Zonal Wind at 50 Meters",
+    "U-Component of Wind at 50m",
+    "East-West Wind Component at 50m"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "FRSEAICE",
+   "name": "Ice Covered Fraction",
+   "units": "1",
+   "definition": "The fraction of ocean covered by sea ice.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Sea Ice Concentration",
+    "Sea Ice Area Fraction",
+    "Ocean Ice Cover Fraction",
+    "SIC"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "FRSNO",
+   "name": "Land Snowcover Fraction",
+   "units": "1",
+   "definition": "The fraction of land covered by snow.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Snow Cover Fraction",
+    "Fractional Snow Coverage",
+    "Snow-Covered Area Fraction",
+    "SCF"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "MIDDAY_INSOL_MAX",
+   "name": "Midday Insolation Incident Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum total amount of solar irradiance (direct plus diffuse) incident on a horizontal plane at the earth's surface during the solar noon hour midday period.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "MIDDAY_INSOL_MIN",
+   "name": "Midday Insolation Incident Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum total amount of solar irradiance (direct plus diffuse) incident on a horizontal plane at the earth's surface during the solar noon hour midday period.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "MIDDAY_INSOL_SD",
+   "name": "Midday Insolation Incident Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of the total amount of solar irradiance (direct plus diffuse) incident on a horizontal plane at the earth's surface during the solar noon hour midday period.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "V50M",
+   "name": "Northward Wind at 50 Meters",
+   "units": "m/s",
+   "definition": "The estimate of the northward wind average speed for winds blowing 50 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Meridional Wind at 50 Meters",
+    "V-Component of Wind at 50m",
+    "North-South Wind Component at 50m"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "PSH",
+   "name": "Peak Sun Hour",
+   "units": "MJ/m^2/day",
+   "definition": "The average intensity of solar irradiance that reaches the surface.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Surface Pressure at Elevation",
+    "Barometric Pressure at Site Height",
+    "Elevation-Corrected Pressure"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "PBLTOP",
+   "name": "Planetary Boundary Layer Top Pressure",
+   "units": "kPa",
+   "definition": "The pressure at the top of the planet boundary layer.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "PBL Height Pressure",
+    "Boundary Layer Top Pressure",
+    "ABL Top Pressure",
+    "Mixed-Layer Top Pressure"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "PRECTOTCORR_SUM",
+   "name": "Precipitation Corrected Sum",
+   "units": "mm/day",
+   "definition": "The accumulated MERRA-2 bias corrected total precipitation at the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Cumulative Corrected Precipitation",
+    "Accumulated Bias-Corrected Precipitation",
+    "Total Adjusted Precipitation Sum"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "SLP",
+   "name": "Sea Level Pressure",
+   "units": "kPa",
+   "definition": "The sea level pressure at the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Mean Sea Level Pressure",
+    "MSLP",
+    "Barometric Pressure Reduced to Sea Level"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "PRECSNO",
+   "name": "Snow Precipitation",
+   "units": "mm/day",
+   "definition": "The snow precipitation at the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Snowfall Rate",
+    "Snow Precipitation Rate",
+    "Solid Precipitation Rate",
+    "Frozen Precipitation Rate"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "PRECSNOLAND",
+   "name": "Snow Precipitation Land",
+   "units": "mm/day",
+   "definition": "The snow precipitation only over land at the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Land Only Snowfall",
+    "Snowfall Rate over Land Only"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "PRECSNOLAND_SUM",
+   "name": "Snow Precipitation Land Sum",
+   "units": "mm/day",
+   "definition": "The accumulated snow precipitation over land at the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Cumulative Land Snowfall",
+    "Accumulated Snowfall over Land",
+    "Total Snow Accumulation over Land"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "QV10M",
+   "name": "Specific Humidity at 10 Meters",
+   "units": "g/kg",
+   "definition": "The ratio of the mass of water vapor to the total mass of air at 10 meters.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Specific Humidity at 10m",
+    "Mixing Ratio at 10 Meters",
+    "Water Vapor Mass Fraction at 10m"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "RHOA",
+   "name": "Surface Air Density",
+   "units": "kg m-3",
+   "definition": "The air density at surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Surface Air Density",
+    "Atmospheric Density at Surface",
+    "Near-Surface Air Density",
+    "Air Density at Ground Level"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "SRF_ALB_ADJ",
+   "name": "Surface Albedo Adjusted",
+   "units": "dimensionless",
+   "definition": "The ratio of the solar energy reflected by the surface of the earth compared to the total solar energy incident reaching the surface of the earth. Adjusted refers to CERES source parameter.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Corrected Surface Albedo",
+    "Bias-Adjusted Surface Reflectance",
+    "Modified Surface Albedo"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "Z0M",
+   "name": "Surface Roughness",
+   "units": "m",
+   "definition": "The height above the displacement plane at which the mean wind becomes zero when extrapolating the logarithmic wind speed profile downward through the surface layer.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Aerodynamic Roughness Length",
+    "Roughness Length for Momentum",
+    "Surface Roughness Length",
+    "Terrain Roughness Parameter"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "T10M",
+   "name": "Temperature at 10 Meters",
+   "units": "C",
+   "definition": "The air (dry bulb) temperature at 10 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Dry Bulb Temperature at 10 Meters",
+    "Near-Surface Air Temperature at 10m",
+    "Ambient Temperature at 10 Meters",
+    "Standard Anemometer-Level Temperature",
+    "Screen-Level Temperature at 10m",
+    "Surface Temperature"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "T10M_MAX",
+   "name": "Temperature at 10 Meters Maximum",
+   "units": "C",
+   "definition": "The maximum hourly air (dry bulb) temperature at 10 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Maximum Dry Bulb Temperature at 10 Meters",
+    "Maximum Temperature at 10 Meters",
+    "Daily Maximum Temperature at 10m",
+    "Peak Air Temperature at 10m"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "T10M_MAX_AVG",
+   "name": "Temperature at 10 Meters Maximum Average",
+   "units": "C",
+   "definition": "The average of the daily maximum air (dry bulb) temperature at 10 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Mean Daily Maximum Temperature at 10 Meters",
+    "Average High Temperature at 10m"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "T10M_MIN",
+   "name": "Temperature at 10 Meters Minimum",
+   "units": "C",
+   "definition": "The minimum hourly air (dry bulb) temperature at 10 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Minimum Dry Bulb Temperature at 10 Meters",
+    "Minimum Temperature at 10 Meters",
+    "Daily Minimum Temperature at 10m"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "T10M_MIN_AVG",
+   "name": "Temperature at 10 Meters Minimum Average",
+   "units": "C",
+   "definition": "The average of the daily minimum air (dry bulb) temperature at 10 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Mean Daily Minimum Temperature at 10 Meters",
+    "Average Low Temperature at 10m"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "T10M_RANGE",
+   "name": "Temperature at 10 Meters Range",
+   "units": "C",
+   "definition": "The minimum and maximum hourly air (dry bulb) temperature range at 10 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Dry Bulb Temperature Range at 10 Meters",
+    "Diurnal Temperature Range at 10 Meters",
+    "Temperature Amplitude at 10 Meters"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "T2M_MAX_AVG",
+   "name": "Temperature at 2 Meters Maximum Average",
+   "units": "C",
+   "definition": "The average of the daily maximum air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Mean Daily Maximum Temperature",
+    "Average High Temperature",
+    "Climatological Maximum Temperature"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "T2M_MIN_AVG",
+   "name": "Temperature at 2 Meters Minimum Average",
+   "units": "C",
+   "definition": "The average of the daily minimum air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Mean Daily Minimum Temperature",
+    "Average Low Temperature",
+    "Climatological Minimum Temperature"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TOA_SW_DNI_MAX",
+   "name": "Top-Of-Atmosphere Shortwave Direct Normal Radiation Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum total solar irradiance incident (direct plus diffuse) on a horizontal plane where oriented to the sun's position at the top of the atmosphere (extraterrestrial radiation).",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "TOA_SW_DNI_MIN",
+   "name": "Top-Of-Atmosphere Shortwave Direct Normal Radiation Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum total solar irradiance incident (direct plus diffuse) on a horizontal plane where oriented to the sun's position at the top of the atmosphere (extraterrestrial radiation).",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "TOA_SW_DNI_SD",
+   "name": "Top-Of-Atmosphere Shortwave Direct Normal Radiation Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of total solar irradiance incident (direct plus diffuse) on a horizontal plane where oriented to the sun's position at the top of the atmosphere (extraterrestrial radiation).",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 2001
+  },
+  {
+   "code": "TOA_SW_DWN_MAX",
+   "name": "Top-Of-Atmosphere Shortwave Downward Irradiance Maximum",
+   "units": "MJ/m^2/day",
+   "definition": "The maximum total solar irradiance incident (direct plus diffuse) on a horizontal plane at the top of the atmosphere (extraterrestrial radiation).",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "TOA_SW_DWN_MIN",
+   "name": "Top-Of-Atmosphere Shortwave Downward Irradiance Minimum",
+   "units": "MJ/m^2/day",
+   "definition": "The minimum total solar irradiance incident (direct plus diffuse) on a horizontal plane at the top of the atmosphere (extraterrestrial radiation).",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "TOA_SW_DWN_SD",
+   "name": "Top-Of-Atmosphere Shortwave Downward Irradiance Standard Deviation",
+   "units": "MJ/m^2/day",
+   "definition": "The standard deviation of total solar irradiance incident (direct plus diffuse) on a horizontal plane at the top of the atmosphere (extraterrestrial radiation).",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [],
+   "official": true,
+   "nrt": false,
+   "reviewing": false,
+   "since": 1984
+  },
+  {
+   "code": "TO3",
+   "name": "Total Column Ozone",
+   "units": "Dobsons",
+   "definition": "The total amount of ozone in a column extending vertically from the earth's surface to the top of the atmosphere.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Total Ozone Column",
+    "Columnar Ozone",
+    "Ozone Layer Thickness",
+    "Total Ozone in Dobson Units",
+    "TOC"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TQV",
+   "name": "Total Column Precipitable Water",
+   "units": "kg m-2",
+   "definition": "The total atmospheric water vapor contained in a vertical column of unit cross-sectional area extending from the surface to the top of the atmosphere, sourced from the GMAO.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Precipitable Water",
+    "Integrated Water Vapor",
+    "Total Precipitable Water",
+    "Column Water Vapor"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TROPPB",
+   "name": "Tropopause Pressure based on blended estimate.",
+   "units": "kPa",
+   "definition": "The tropopause pressure based on the blended estimate.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Tropopause Pressure Level",
+    "Tropopause Height Pressure",
+    "Thermal Tropopause Pressure"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TROPQ",
+   "name": "Tropopause Specific Humidity using blended TROPP estimate.",
+   "units": "g/kg",
+   "definition": "The ratio of the mass of water vapor to the total mass of air at the tropopause pressure given by TROPPB.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Tropopause Water Vapor",
+    "Specific Humidity at Tropopause",
+    "Tropopause Moisture"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "TROPT",
+   "name": "Tropopause Temperature using blended TROPP estimate.",
+   "units": "C",
+   "definition": "The air (dry bulb) temperature at the tropopause pressure given by TROPPB.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Tropopause Temperature Level",
+    "Temperature at Tropopause"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  },
+  {
+   "code": "WS10M_MAX_AVG",
+   "name": "Wind Speed at 10 Meters Maximum Average",
+   "units": "m/s",
+   "definition": "The average of the maximum daily wind speed at 10 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Mean Maximum Wind Speed at 10 Meters",
+    "Average Peak Surface Wind"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "WS10M_MIN_AVG",
+   "name": "Wind Speed at 10 Meters Minimum Average",
+   "units": "m/s",
+   "definition": "The average of the minimum daily wind speed at 10 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Mean Minimum Wind Speed at 10 Meters",
+    "Average Calm Surface Wind"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "WS2M_MAX_AVG",
+   "name": "Wind Speed at 2 Meters Maximum Average",
+   "units": "m/s",
+   "definition": "The average of the maximum daily wind speed at 2 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Mean Maximum Wind Speed at 2 Meters",
+    "Average Peak Wind at 2m"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "WS2M_MIN_AVG",
+   "name": "Wind Speed at 2 Meters Minimum Average",
+   "units": "m/s",
+   "definition": "The average of the minimum daily wind speed at 2 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Mean Minimum Wind Speed at 2 Meters",
+    "Average Calm Wind at 2m"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "WS50M_MAX_AVG",
+   "name": "Wind Speed at 50 Meters Maximum Average",
+   "units": "m/s",
+   "definition": "The average of the maximum daily wind speed at 50 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Mean Maximum Wind Speed at 50 Meters",
+    "Average Peak Hub-Height Wind"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "WS50M_MIN_AVG",
+   "name": "Wind Speed at 50 Meters Minimum Average",
+   "units": "m/s",
+   "definition": "The average of the minimum daily wind speed at 50 meters above the surface of the earth.",
+   "type": "Meteorology",
+   "availability": "monthly",
+   "keywords": [
+    "Mean Minimum Wind Speed at 50 Meters",
+    "Average Calm Hub-Height Wind"
+   ],
+   "official": true,
+   "nrt": false,
+   "reviewing": true,
+   "since": 1981
+  },
+  {
+   "code": "DISPH",
+   "name": "Zero Plane Displacement Height",
+   "units": "m",
+   "definition": "The height at which the mean velocity is zero due to large obstacles such as buildings/canopy.",
+   "type": "Radiation",
+   "availability": "monthly",
+   "keywords": [
+    "Zero-Plane Displacement Height",
+    "Displacement Height for Wind Profile",
+    "Canopy Displacement Height"
+   ],
+   "official": true,
+   "nrt": true,
+   "reviewing": false,
+   "since": 1981
+  }
+ ]
+}

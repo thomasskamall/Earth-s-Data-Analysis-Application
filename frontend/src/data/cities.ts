@@ -1,0 +1,36 @@
+// A starter set of large cities shown as labels on the globe.
+// Clicking anywhere else on Earth works too.
+export type City = { name: string; lat: number; lon: number };
+
+export const CITIES: City[] = [
+  { name: "Cairo", lat: 30.04, lon: 31.24 },
+  { name: "Casablanca", lat: 33.57, lon: -7.59 },
+  { name: "Lagos", lat: 6.52, lon: 3.38 },
+  { name: "Kinshasa", lat: -4.44, lon: 15.27 },
+  { name: "Nairobi", lat: -1.29, lon: 36.82 },
+  { name: "Johannesburg", lat: -26.2, lon: 28.05 },
+  { name: "London", lat: 51.51, lon: -0.13 },
+  { name: "Paris", lat: 48.86, lon: 2.35 },
+  { name: "Moscow", lat: 55.76, lon: 37.62 },
+  { name: "Istanbul", lat: 41.01, lon: 28.98 },
+  { name: "Riyadh", lat: 24.71, lon: 46.68 },
+  { name: "Dubai", lat: 25.2, lon: 55.27 },
+  { name: "Karachi", lat: 24.86, lon: 67.01 },
+  { name: "Delhi", lat: 28.61, lon: 77.21 },
+  { name: "Mumbai", lat: 19.08, lon: 72.88 },
+  { name: "Dhaka", lat: 23.81, lon: 90.41 },
+  { name: "Bangkok", lat: 13.76, lon: 100.5 },
+  { name: "Jakarta", lat: -6.21, lon: 106.85 },
+  { name: "Beijing", lat: 39.9, lon: 116.41 },
+  { name: "Shanghai", lat: 31.23, lon: 121.47 },
+  { name: "Tokyo", lat: 35.68, lon: 139.69 },
+  { name: "Sydney", lat: -33.87, lon: 151.21 },
+  { name: "Los Angeles", lat: 34.05, lon: -118.24 },
+  { name: "Mexico City", lat: 19.43, lon: -99.13 },
+  { name: "New York", lat: 40.71, lon: -74.01 },
+  { name: "Toronto", lat: 43.65, lon: -79.38 },
+  { name: "Bogotá", lat: 4.71, lon: -74.07 },
+  { name: "Lima", lat: -12.05, lon: -77.04 },
+  { name: "São Paulo", lat: -23.55, lon: -46.63 },
+  { name: "Buenos Aires", lat: -34.6, lon: -58.38 },
+];
